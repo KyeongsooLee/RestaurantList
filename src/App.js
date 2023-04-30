@@ -16,6 +16,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="*" element={<NotFound />} />
               <Route path="/Restaurants" element={<Restaurants />} />
+              <Route path="/Restaurant/:id" element={<Restaurant />} />
           </Routes>
         </Col>
       </Row>
